@@ -1,0 +1,80 @@
+.ad-container {
+    max-width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ad-image-container {
+    position: relative;
+  }
+  
+  .ad-background-image {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .ad-content {
+    padding: 12px;
+    background: #ffffff;
+  }
+  
+  .ad-title {
+    color: #333;
+    font-size: 18px;
+    margin-top: 2px;
+    text-align: left;
+  }
+  
+  .ad-description {
+    color: #666;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: px;
+    text-align: left;
+  }
+  
+  .ad-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    padding: 3px;
+  }
+  
+  .ad-logo {
+    margin-left: -4px;
+    width: 40px;
+    height: 40px; /* Adjust based on your actual logo size */
+  }
+  
+  .ad-open-button {
+    background: #007bff;
+    border: none;
+    border-radius: 50%; /* Makes the button circular */
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: right; /* Keeps the button positioned inside the ad-container */
+   /* Half of the button's width to align it with the container's edge */
+  }
+  
+  .ad-open-button:hover {
+    background: #0056b3;
+  }
+  
+  .arrow-icon {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+  }
+  
